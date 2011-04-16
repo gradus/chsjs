@@ -1,2 +1,2 @@
-// require('./lib/coffee-script/lib/coffee-script.js')
-// require('./app.coffee')
+require('coffee-script')
+require('./app.coffee')

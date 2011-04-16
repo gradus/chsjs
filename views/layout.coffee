@@ -10,7 +10,7 @@ html ->
           h1 ->
             "Charleston JavaScript User Group"
       div id: 'content',
-        -> @render @content
+        -> @render @content, @context
       div id: 'footer', ->
         p ->
           em 'Powered by', a href: 'http://nodejs.org/', target: '_blank', ->
