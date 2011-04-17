@@ -6,7 +6,7 @@ div class: "right", ->
 div class: "left", ->
   "Jack Russell Software <br />" +
   "1067 Cliffwood Drive <br />" +
-  "Mount Pleasant, SC  29464 <br />" +
+  "Mount Pleasant, SC  29464 <br /><br />" +
   "JavaScript meetup is the " +
   "last Wed. of the month <br />" +
   "from 6:30 to 8:30 <br /><br />" +
