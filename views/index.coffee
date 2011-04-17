@@ -12,7 +12,6 @@ div class: "left", ->
   "from 6:30 to 8:30 <br /><br />" +
   "Everyone is welcome."
 div class: "clear"
-
 for tweet in @tweets
  p ->
    tweet
