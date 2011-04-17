@@ -1,4 +1,4 @@
-# CHS JavaiScript group site
+# CHS JavaScript group site
 
 ## setup
 npm install connect meryl twitter
