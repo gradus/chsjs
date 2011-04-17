@@ -7,11 +7,11 @@ div class: "left", ->
   "Jack Russell Software <br />" +
   "1067 Cliffwood Drive <br />" +
   "Mount Pleasant, SC  29464 <br />" +
-  "Javascript meetup is the" +
-  "Last Wed. of the month<br />" +
+  "JavaScript meetup is the " +
+  "Last Wed. of the month <br />" +
   "from 6:30 to 8:30 <br /><br />" +
   "Everyone is welcome to come and hack on <br />" +
-  "javascript or learn something new."
+  "JavaScript or learn something new."
 div class: "clear"
 for tweet in @tweets
  p ->
