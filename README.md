@@ -1,7 +1,7 @@
 # CHS JavaScript group site
 
 ## setup
-npm install connect meryl twitter
+npm install coffee-script connect meryl twitter
 
 ## run it
 coffee app.coffee
