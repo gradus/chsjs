@@ -8,7 +8,8 @@ div class: "left", ->
   "1067 Cliffwood Drive <br />" +
   "Mount Pleasant, SC  29464 <br />" +
   "Javascript meetup is the" +
-  "Last Wed. of the month from 6:30 to 8:30 <br /><br />" +
+  "Last Wed. of the month<br />" +
+  "from 6:30 to 8:30 <br /><br />" +
   "Everyone is welcome to come and hack on javascript<br />" +
   "or learn something new"
 div class: "clear"
