@@ -13,6 +13,7 @@ div class: "left", ->
   "Everyone is welcome to come and hack on <br />" +
   "JavaScript or learn something new."
 div class: "clear"
+
 for tweet in @tweets
  p ->
    tweet
