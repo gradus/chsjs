@@ -10,8 +10,7 @@ div class: "left", ->
   "JavaScript meetup is the " +
   "last Wed. of the month <br />" +
   "from 6:30 to 8:30 <br /><br />" +
-  "Everyone is welcome to come and hack on <br />" +
-  "JavaScript or learn something new."
+  "Everyone is welcome."
 div class: "clear"
 
 for tweet in @tweets
