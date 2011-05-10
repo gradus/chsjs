@@ -1,18 +1,45 @@
+/* @override http://silverbullet.local:9491/stylesheets/app.css */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
 body {
-  background-color: #e6e2df;
-  font-family: myriad-pro-1, myriad-pro-2, HelveticaNeue, Helvetica, Arial, serif;
-  color: #666;
-  margin: 10px 10px; 
-  padding: 0px;
-	text-align: center;
+	background-color: #fff;
+	font-family: myriad-pro-1, myriad-pro-2, HelveticaNeue, Helvetica, Arial, serif;
+	color: #555;
 }
 
 h1 {
-  color: #e3e3e3;
-  text-shadow: #b9c949 .05em .05em .06em;
+  color: #3b3b3b;
+  text-shadow: #777 .05em .05em .06em;
   margin: .4em;
 }
-
+h2 {
+	margin: 1em 0;
+	font-size: 1.3em;
+}
+h3 {
+	margin: .5em 0;
+}
 a {
   text-decoration: none;
 }
@@ -33,46 +60,64 @@ img.twitter_pic {
  }
 
 .tweet-text {
-  font-size: 14px;
+  font-size: 13px;
   padding: 2px;
   margin: 3px 0 0 220px;
 }
 
-#wrap {
-	width:900px;
+#wrap {	
 	margin:0px auto;
 	text-align:left;
 }
 
 #header {
   /* Firefox 3.6+ */
-  background-image: -moz-linear-gradient(#2F2727, #1a82f7);
+  background-image: -moz-linear-gradient(#333, #1a82f7);
   /* Safari 4+, Chrome 1+ */
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1a82f7), to(#2F2727));
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333), to(#444));
   /* Safari 5.1+, Chrome 10+ */
-  background-image: -webkit-linear-gradient(#2F2727, #1a82f7);
+  background-image: -webkit-linear-gradient(#333, #444);
   width: 100%;
-  padding: 10px;
+  padding: 10px 0px;
   text-align: center;
   margin-bottom: 4px;
-  border-radius: 5px;
+  
 }
 
-#content {
-  /* Firefox 3.6+ */
-  background-image: -moz-linear-gradient(#e6e2df, whitesmoke);
-  /* Safari 4+, Chrome 1+ */
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(whitesmoke), to(#e6e2df));
-  /* Safari 5.1+, Chrome 10+ */
-  background-image: -webkit-linear-gradient(#e6e2df, whitesmoke);
+	.header-content {
+		padding: 10px 0px;
+		width: 900px;
+		margin: 5px auto;
+	}
+		.title {
+			height: 170px;
+			background: url(/images/pinapple.png) 0px 0px no-repeat;
+			width: 900px;
+			margin: 0 auto;
+		}
+		.title h1 {
+			color: #333;
+		  	text-shadow: #b9c949 .07em .07em .07em;
+		  	margin: 2.5em 0em 0em 2em;
+		  	float: left;
+		  	width: 170px;
+		  	font-size: 1.7em;
+		  	padding: .1em .1em .1em 2em;
+		  	background: ;
 
+		}
+		
+#content {
   background-color: whitesmoke;
-  width: 100%;
-  padding: 10px;
-  margin: 5px 0;
+  width: 900px;
+  padding: 10px 10px;
+  margin: 5px auto;
   border-radius: 5px;
   color: #171717;
 }
+	#tweets {
+		float: right;
+	}
 
 #footer {
   /* Firefox 3.6+ */
@@ -81,19 +126,34 @@ img.twitter_pic {
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1a82f7), to(#2F2727));
   /* Safari 5.1+, Chrome 10+ */
   background-image: -webkit-linear-gradient(#2F2727, #1a82f7);   width: 100%;
-  padding: 10px;
+  background: #333;
+  padding: 10px 0px;
   text-align: right;
   margin-bottom: 4px;
-  border-radius: 5px;
 }
-
-#footer p {
-  margin-top: 20px;
-  color: #e3e3e3;
-  text-shadow: #b9c949 .01em .01em .1em;
-}
-
-#footer img {
-  float: right;
-  margin: -20px 0 10px 0;
-}
+	.footer-content {
+		padding: 20px 0px;
+		width: 900px;
+		margin: 5px auto;
+	}
+		.footer-content a.node {
+			background: #000;
+		}
+		.footer-content a.coffeescript {
+			background: #000;
+		}
+		.footer-content img {
+			padding: 1em;
+			display: block;
+			float: right;
+		}
+	#footer p {
+	  margin-top: 20px;
+	  color: #e3e3e3;
+	  text-shadow: #b9c949 .01em .01em .1em;
+	}
+	
+	#footer img {
+	  float: right;
+	  margin: -20px 0 10px 0;
+	}
