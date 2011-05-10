@@ -97,23 +97,28 @@ img.twitter_pic {
 		}
 		.title h1 {
 			color: #333;
-		  	text-shadow: #b9c949 .07em .07em .07em;
+		  	text-shadow: #cecece .07em .07em .07em;
 		  	margin: 2.5em 0em 0em 2em;
 		  	float: left;
-		  	width: 170px;
 		  	font-size: 1.7em;
-		  	padding: .1em .1em .1em 2em;
+		  	padding: 1.6em .1em .1em 2em;
 		  	background: ;
 
 		}
 		
 #content {
-  background-color: whitesmoke;
+  background-color: #cecece;
   width: 900px;
-  padding: 10px 10px;
-  margin: 5px auto;
+  padding: 30px;
+  margin: 5px auto 50px;
   border-radius: 5px;
   color: #171717;
+    -webkit-box-shadow: 0px 3px 5px #cbcbcb;
+    -moz-box-shadow: 0px 3px 5px #cbcbcb;
+    box-shadow: 0px 3px 5px #cbcbcb;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
 }
 	#tweets {
 		float: right;
